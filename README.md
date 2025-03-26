@@ -1,42 +1,66 @@
 # Testy Eksploracyjne – AcademyBugs
 
-Dokument zawiera zgłoszenia błędów znalezionych podczas testów eksploracyjnych strony [academybugs.com](https://academybugs.com).
-
-Zgłoszenia przygotowano w stylu zgłoszeń do systemu JIRA – każde z nich zawiera:
-
-- Tytuł błędu
-- Opis problemu
-- Kroki do reprodukcji
-- Rzeczywisty i oczekiwany rezultat
-- Środowisko testowe
-- Linki do nagrań wideo (dowody błędów)
+Projekt zawiera listę defektów znalezionych podczas testów eksploracyjnych strony [academybugs.com](https://academybugs.com).  
+Pełna dokumentacja zgłoszeń znajduje się w pliku `.docx`. Poniżej zaprezentowano dwa przykładowe błędy.
 
 ---
 
-## 📋 Zakres testów:
-- Obsługa koszyka i zamówień
+## 📌 Przykładowe zgłoszenia błędów
+
+### 🔴 Błąd 1 – Zmiana waluty powoduje crash strony
+
+- **Priorytet**: Wysoki  
+- **Opis**: Podczas zmiany waluty w zakładce „Select a Currency” strona przestaje działać.  
+- **Kroki do reprodukcji**:
+  1. Przejdź na stronę academybugs.com
+  2. Kliknij „Find Bugs”
+  3. Przejdź do zakładki „My Cart”
+  4. W sekcji „Select a Currency” zmień walutę np. z USD na EUR
+- **Rzeczywisty rezultat**: Strona się crashuje  
+- **Oczekiwany rezultat**: Strona powinna przeliczyć wartości i działać poprawnie  
+- **Dowód (film)**: [Zobacz nagranie](https://drive.google.com/file/d/1mhpAPnQyQvJhHi7R--1I2VZgx6VNyu_q/view?usp=sharing)
+
+---
+
+### 🟠 Błąd 2 – Błędna suma w sekcji „Cart Total”
+
+- **Priorytet**: Wysoki  
+- **Opis**: Suma końcowa w koszyku nie odpowiada sumie produktów + koszt wysyłki.  
+- **Kroki do reprodukcji**:
+  1. Przejdź do academybugs.com → „My Cart”
+  2. Porównaj wartości w „Cart Subtotal”, „Shipping” i „Grand Total”
+- **Rzeczywisty rezultat**: Grand Total pokazuje $152.99 mimo że suma powinna wynosić $52.99  
+- **Oczekiwany rezultat**: Grand Total = Subtotal + Shipping  
+- **Dowód (film)**: Brak załącznika
+
+---
+
+## 🧪 Zakres testów eksploracyjnych
+
 - Filtrowanie produktów
-- Zmiana waluty
-- Responsywność elementów UI
-- Błędy wizualne (np. wyrównanie tekstu, nieczytelność)
-- Niedziałające linki i przyciski
-- Walidacja działania filtrów cenowych
+- Funkcje koszyka i checkoutu
+- Responsywność przycisków i elementów interfejsu
+- Walidacja języka, waluty, ikon i linków
+- Poprawność elementów graficznych i wyrównań
 
 ---
 
-## 🖥️ Środowisko testowe:
-- System: Windows 11 Pro 64bit
+## 🖥️ Środowisko testowe
+
+- System operacyjny: Windows 11 Pro 64bit  
 - Przeglądarka: Opera
 
 ---
 
-## 📎 Zawartość repozytorium:
+## 📎 Zawartość repozytorium
+
 - `Testy Eksploracyjne - academybugs.docx` – pełna dokumentacja błędów
-- Dowody testów – linki do nagrań wideo
+- `README.md` – opis projektu i przykłady zgłoszeń
 
 ---
 
-## 🎯 Cel:
-Materiał demonstracyjny do portfolio testera manualnego.  
-Testy wykonano samodzielnie jako ćwiczenie praktyczne.
+## 📍 Status projektu
+
+Projekt demonstracyjny – część portfolio testera manualnego.  
+Zadanie wykonane samodzielnie w ramach ćwiczeń testerskich.
 
