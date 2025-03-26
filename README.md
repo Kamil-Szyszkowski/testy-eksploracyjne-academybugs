@@ -18,7 +18,9 @@ Pełna dokumentacja zgłoszeń znajduje się w pliku `.docx`. Poniżej zaprezent
   4. W sekcji „Select a Currency” zmień walutę np. z USD na EUR
 - **Rzeczywisty rezultat**: Strona się crashuje  
 - **Oczekiwany rezultat**: Strona powinna przeliczyć wartości i działać poprawnie  
-- **Dowód (film)**: [Zobacz nagranie](https://drive.google.com/file/d/1mhpAPnQyQvJhHi7R--1I2VZgx6VNyu_q/view?usp=sharing)
+- **Dowód (film)**:
+-
+- [Zobacz nagranie](https://drive.google.com/file/d/1mhpAPnQyQvJhHi7R--1I2VZgx6VNyu_q/view?usp=sharing)
 
 ---
 
