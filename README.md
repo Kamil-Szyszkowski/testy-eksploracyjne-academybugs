@@ -33,7 +33,8 @@ Pełna dokumentacja zgłoszeń znajduje się w pliku `.docx`. Poniżej zaprezent
   2. Porównaj wartości w „Cart Subtotal”, „Shipping” i „Grand Total”
 - **Rzeczywisty rezultat**: Grand Total pokazuje $152.99 mimo że suma powinna wynosić $52.99  
 - **Oczekiwany rezultat**: Grand Total = Subtotal + Shipping  
-- **Dowód (Zdjęcię)**:![image](https://github.com/user-attachments/assets/9b21cd31-014c-4c4f-8cba-373965cf25f5)
+- **Dowód (Zdjęcię)**:
+-![image](https://github.com/user-attachments/assets/9b21cd31-014c-4c4f-8cba-373965cf25f5)
 
 
 ---
