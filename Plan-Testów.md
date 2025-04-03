@@ -4,7 +4,7 @@
 
 Celem niniejszego planu testów jest wykonanie testów eksploracyjnych aplikacji internetowej AcademyBugs w celu wykrycia błędów funkcjonalnych i graficznych wpływających na doświadczenie użytkownika.
 
-3. Zakres testów
+2. Zakres testów
    
 Zakres testów obejmuje:
 
@@ -42,7 +42,7 @@ Przeglądarka: Opera
 
 Urządzenie: PC
 
-7. Kategorie testów
+6. Kategorie testów
    
 Błąd krytyczny
 
@@ -66,7 +66,7 @@ Testy eksploracyjne	3h	Zrealizowane
 
 Zgłoszenie defektów	1h	Zrealizowane
 
-10. Raport z testów
+9. Raport z testów
 
 Łącznie wykryto 12 defektów na stronie AcademyBugs, które zostały szczegółowo opisane w pliku:
 
