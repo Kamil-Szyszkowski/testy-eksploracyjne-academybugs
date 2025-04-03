@@ -54,5 +54,6 @@ Testy eksploracyjne	3h	Zrealizowane
 Zgłoszenie defektów	1h	Zrealizowane
 9. Raport z testów
 Łącznie wykryto 12 defektów na stronie AcademyBugs, które zostały szczegółowo opisane w pliku:
-📄 Testy Eksploracyjne - academybugs.docx
+
+📄 Raport z testów – [Testy Eksploracyjne - academybugs.docx](./Testy%20Eksploracyjne%20-%20academybugs.docx)
 
