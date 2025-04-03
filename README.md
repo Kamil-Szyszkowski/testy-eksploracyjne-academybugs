@@ -60,8 +60,9 @@ Pełna dokumentacja zgłoszeń znajduje się w pliku `.docx`. Poniżej zaprezent
 
 ## 📎 Zawartość repozytorium
 
-- `Testy Eksploracyjne - academybugs.docx` – pełna dokumentacja błędów
 - `README.md` – opis projektu i przykłady zgłoszeń
+-  📄 Plan testów – [Plan-Testów.md](./Plan-Testów.md)
+- 📄 Raport z testów – [Testy Eksploracyjne - academybugs.docx](./Testy%20Eksploracyjne%20-%20academybugs.docx)
 
 ---
 
