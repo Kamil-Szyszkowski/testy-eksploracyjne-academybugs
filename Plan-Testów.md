@@ -1,74 +1,56 @@
-📄 Plan Testów – AcademyBugs
+# Plan Testów – AcademyBugs
 
-1. Wstęp
+## 1. Wstęp
+Celem niniejszego planu testów jest wykonanie testów eksploracyjnych aplikacji internetowej **AcademyBugs** w celu wykrycia błędów funkcjonalnych i graficznych wpływających na doświadczenie użytkownika.
 
-Celem niniejszego planu testów jest wykonanie testów eksploracyjnych aplikacji internetowej AcademyBugs w celu wykrycia błędów funkcjonalnych i graficznych wpływających na doświadczenie użytkownika.
-
-2. Zakres testów
-   
+## 2. Zakres testów
 Zakres testów obejmuje:
-
-Testy eksploracyjne podstawowych funkcjonalności sklepu internetowego
-
-Weryfikację poprawności wyświetlania elementów graficznych
-
-Sprawdzenie działania funkcjonalności koszyka oraz filtrowania produktów
+- Testy eksploracyjne podstawowych funkcjonalności sklepu internetowego
+- Weryfikację poprawności wyświetlania elementów graficznych
+- Sprawdzenie działania funkcjonalności koszyka oraz filtrowania produktów
 
 Zakres nie obejmuje:
+- Testów wydajnościowych
+- Testów bezpieczeństwa
+- Testów automatycznych
 
-Testów wydajnościowych
+## 3. Kryteria wejścia
+- Aplikacja AcademyBugs dostępna w wersji testowej
+- Utworzone środowisko testowe
 
-Testów bezpieczeństwa
+## 4. Kryteria wyjścia
+- Wykonanie testów eksploracyjnych
+- Zidentyfikowanie i opisanie defektów
 
-Testów automatycznych
+## 5. Środowisko testowe
+**System operacyjny:** Windows 11 Pro 64-bit  
+**Przeglądarka:** Opera  
+**Urządzenie:** PC
 
-3. Kryteria wejścia
+## 6. Kategorie testów
+- Błąd krytyczny
+- Błąd poważny
+- Błąd średni
+- Błąd trywialny
 
-Aplikacja AcademyBugs dostępna w wersji testowej
+## 7. Narzędzia
+- Google Docs – raportowanie błędów
+- ShareX – tworzenie zrzutów ekranu i nagrań
 
-Utworzone środowisko testowe
+## 8. Harmonogram testów
 
-4. Kryteria wyjścia
+| Etap                 | Czas trwania | Status      |
+|---------------------:|------------:|:------------|
+| Testy eksploracyjne  | 3h          | Zrealizowane |
+| Zgłoszenie defektów  | 1h          | Zrealizowane |
 
-Wykonanie testów eksploracyjnych
-
-Zidentyfikowanie i opisanie defektów
-
-5. Środowisko testowe
-   
-System operacyjny: Windows 11 Pro 64-bit
-
-Przeglądarka: Opera
-
-Urządzenie: PC
-
-6. Kategorie testów
-   
-Błąd krytyczny
-
-Błąd poważny
-
-Błąd średni
-
-Błąd trywialny
-
-7. Narzędzia
-   
-Google Docs – raportowanie błędów
-
-ShareX – tworzenie zrzutów ekranu i nagrań
-
-8. Harmonogram testów
-   
-Etap	Czas trwania	Status
-
-Testy eksploracyjne	3h	Zrealizowane
-
-Zgłoszenie defektów	1h	Zrealizowane
-
-9. Raport z testów
-
-Łącznie wykryto 12 defektów na stronie AcademyBugs, które zostały szczegółowo opisane w pliku:
+## 9. Raport z testów
 
 📄 Raport z testów – [Testy Eksploracyjne - academybugs.docx](./Testy%20Eksploracyjne%20-%20academybugs.docx)
+
+---
+
+**Autor:** Kamil Szyszkowski  
+**Data:** Kwiecień 2025
+
 
